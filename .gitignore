@@ -1,0 +1,6 @@
+
+.idea
+# Dependency directory
+**/node_modules/**
+_node_modules
+.pnp.cjs
