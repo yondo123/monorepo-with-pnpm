@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "echo \"build test\""
+        "build": "rollup --bundleConfigAsCjs -c ../../rollup.config.js",
+        "build:clean": "rimraf dist/"
     },
     "keywords": [],
     "author": "",

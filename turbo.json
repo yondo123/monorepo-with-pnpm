@@ -4,6 +4,9 @@
         "build": {
             "outputs": ["dist/**"],
             "dependsOn": ["^build"]
+        },
+        "build:clean": {
+            "cache": false
         }
     },
     "globalDependencies": ["tsconfig.json"]
